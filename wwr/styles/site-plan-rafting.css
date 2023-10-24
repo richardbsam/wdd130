@@ -1,0 +1,68 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Your+Heading+Font:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Define CSS variables */
+:root {
+  --primary-color: #dd8c12cb;
+  --secondary-color: #dba80c;
+  --accent1-color: #78ced1ce;
+  --accent2-color: #832452;
+
+  --heading-font: 'Your Heading Font', sans-serif;
+  --paragraph-font: Arial, sans-serif;
+
+  --nav-background-color: var(--primary-color);
+  --nav-link-color: #fff;
+  --nav-hover-link-color: #e7c24f;
+  --nav-hover-background-color: #381d2a;
+}
+
+/* Apply styles to the body */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Apply styles to headings (h1 - h6) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Apply styles to the header */
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+/* Apply styles to paragraphs */
+p {
+  padding: 25px;
+}
+
+/* Apply styles to navigation */
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+/* Apply styles to navigation links */
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}

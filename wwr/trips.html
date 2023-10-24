@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trips - Sequence Splash Rafting</title>
+        <meta name="description" content="Explore our exciting trips and adventures. Join us for a memorable journey.">
+        <meta name="author" content="Richard Sam">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <style>
+            /* Style for the table */
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            
+            /* Style for table headers */
+            th {
+                background-color: #333;
+                color: #fff;
+                font-weight: bold;
+                text-align: left;
+                padding: 10px;
+            }
+
+            /* Style for even table rows */
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            /* Style for odd table rows */
+            tr:nth-child(odd) {
+                background-color: #fff;
+            }
+
+            /* Style for table cells */
+            td {
+                padding: 10px;
+                text-align: left;
+            }
+
+            /* Add hover effect to table rows */
+            tr:hover {
+                background-color: #ddd;
+            }
+
+
+            /* Apply styles to the call-to-action section */
+            .cta {
+                background-image: url('call-to-action-bg.jpg');
+                background-color: #bfdbda;
+                background-size: cover;
+                text-align: center;
+                padding: 50px;             
+            }
+
+            /* Style the "Learn More" button */
+            .cta a {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #333;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+
+
+
+            /* Style for trip-description sections */
+            .trip {
+                display: flex;
+                margin: 20px 0;
+                align-items: center;
+                background-color: #f9f9f9;             
+            }
+            .trip-image {
+                flex: 1;
+                margin-right: 50px;
+            }
+            /* Style for the trip images */
+
+            .trip-image img {
+                width: 250px;
+                height: auto;
+                border: 1px solid steelblue;
+                padding: 2px;
+                box-shadow: 0 0 30px gray;
+            }
+
+            /* Style the list within the trip description */
+            .trip-description ul {
+                list-style-type: disc;
+                padding-left: 20px;
+            }
+
+         
+            .trip-description h3 {
+                margin-top: 0;
+                color: steelblue;
+                padding: .5rem 0;   
+            }
+
+            .trip-description p {
+                font-size: 1rem;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Site Logo">
+            <h1>SQUENCE SPLASH®</h1>
+            <nav> 
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="cta">
+                <h1>Explore Our Exciting Trips</h1>
+                <p>Ready to embark on your next adventure?</p>
+                <a href="contact.html">Contact Us</a> 
+            </section>
+            
+            <section class="trip">
+                <div class="trip-image">
+                    <img src="images/amazon.jpg" alt="Amazon Trip">   
+                </div>
+                <div class="trip-description">
+                    <h3>Trip 1: Adventure in the Amazon</h3>
+                    <p>Embark on an exhilarating journey through the heart of the Amazon Rainforest, one of the most biodiverse places on Earth. 
+                    This adventure is for thrill-seekers and nature enthusiasts alike. 
+                    Paddle through winding rivers surrounded by lush, towering trees and the symphony of exotic bird calls. 
+                    Encounter breathtaking wildlife, from playful river otters to majestic jaguars. 
+                    Immerse yourself in indigenous cultures, learning about their traditions and wisdom. Your Amazon adventure promises to be a once-in-a-lifetime experience, filled with unforgettable moments of both adrenaline and awe.</p>
+                    <ul>
+                        <li>Duration: 5 Days</li>
+                        <li>Difficulty Level: Intermediate</li>
+                        <li>Price: $1,000</li><br><br>
+                    </ul>
+                   
+                </div>
+            </section>
+            
+            <section class="trip">
+                <div class="trip-image">
+                    <img src="images/sahara.jpg" alt="Sahara Trip">   
+                </div>
+                <div class="trip-description">
+                    <h3>Trip 2: Desert Safari in Sahara</h3>
+                    <p>Get ready for an awe-inspiring expedition into the endless sands of the Sahara Desert. 
+                        This desert safari will take you on a journey through the mesmerizing dunes, where the golden sunsets are as breathtaking as the starry nights. 
+                        You'll ride atop a camel, the "ships of the desert," and experience the timelessness of the dunes. 
+                        Traverse the ancient trade routes, visit nomadic communities, and savor traditional cuisine under the vast desert sky. 
+                        The Sahara Desert is a place of otherworldly beauty, and this trip offers a unique opportunity to explore its mystique.</p>
+                    <ul>
+                        <li>Duration: 10 Days</li>
+                        <li>Difficulty Level: Advanced</li>
+                        <li>Price: $1,500</li><br><br>
+                    </ul>
+                    
+                </div>
+            </section>
+
+            <section class="trip">
+                <div class="trip-image">
+                    <img src="images/maldives.jpg" alt="Maldives Trip">
+                </div>
+                <div class="trip-description">
+                    <h3>Trip 3: Island Paradise in Maldives</h3>
+                    <p>Escape to a tropical paradise in the Maldives, a collection of pristine islands surrounded by crystal-clear waters and vibrant coral reefs. 
+                        This trip is a luxurious retreat for those seeking relaxation and natural beauty. 
+                        Snorkel in the kaleidoscopic coral gardens, relax on white sandy beaches, and rejuvenate in overwater bungalows with panoramic ocean views. 
+                        Whether you're a honeymooner or simply someone looking for a serene getaway, the Maldives offers an idyllic setting for a tranquil escape. 
+                        Immerse yourself in the serene rhythm of island life, where azure waters and swaying palms provide the backdrop to your dream vacation.</p>
+                    <ul>
+                        <li>Duration: 12 Days</li>
+                        <li>Difficulty Level: Experts</li>
+                        <li>Price: $2,000</li><br><br>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="trip-table">
+                <h2>All Available Trips</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Trip Name</th>
+                            <th>Duration</th>
+                            <th>Price</th>
+                            <th>Availability</th>
+                            <th>Book Now</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Adventure in the Amazon</td>
+                            <td>5 Days</td>
+                            <td>$1,000</td>
+                            <td>Avialable</td>
+                            <td><a href="contact.html">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Desert Safari in Sahara</td>
+                            <td>10 days</td>
+                            <td>$1,500</td>
+                            <td>Available</td>
+                            <td><a href="contact.html">Book Now</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Island Paradise in Maldives</td>
+                            <td>12 days</td>
+                            <td>$2,500</td>
+                            <td>Available</td>
+                            <td><a href="contact.html">Book Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>©2024 ⚓ Sequence Splash Rafting ⚓ Richard Sam</p>
+            
+            <div class="footer">
+                <nav class="sociallinks">
+                    <a href="https://www.facebook.com">
+                     <img src="images/facebook-logo.webp" alt="Facebook">
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <img src="images/twitter-logo.webp" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="images/instagram-logo.png" alt="Instagram">
+                    </a>  
+                    <a href="images/wireframe-trips.jpg">Trips Page Wireframe</a>              
+                </nav>
+                
+            </div>
+            
+        </footer>
+    </body>
+</html>
+
+

@@ -1,0 +1,43 @@
+<!-- October, 2023 -->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>HTML, CSS and Quiz form</title>
+        <meta name="description" content="Describe your home page here using keywordds like your name, the course, the purpose of the page">
+        <meta name="author" content="Richard Sam">
+        <link rel="stylesheet" type="text/css" href="styles/quiz.css">
+    </head>
+    <body>
+        <form id="quizForm" action="quiz_submission_page.php" method="post">
+            <h2>☑ Basic HTML and CSS Quiz</h2>
+            
+            <!-- Question 1: Text type input (fill in the blank question) -->
+            <label for="q1">1. What does HTML stand for?</label>
+            <input type="text" id="q1" name="q1" required>
+            
+            <!-- Question 2: Textarea element (short answer question) -->
+            <label for="q2">2. Describe the purpose of CSS in web development:</label>
+            <textarea id="q2" name="q2" rows="4" required></textarea>
+            
+            <!-- Question 3: Select element (dropdown or combo box) -->
+            <label for="q3">3. What does CSS stand for?</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="cascading">Cascading Style Sheets</option>
+                <option value="computer">Computer Science Style</option>
+                <option value="color">Colorful Style Sheets</option>
+            </select>
+            
+            <!-- Question 4: Number type input element (integer answer) -->
+            <label for="q4">4. How many heading levels are available in HTML?</label>
+            <input type="number" id="q4" name="q4" required>
+            
+            <!-- Submit button -->
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </body>
+    </html>
+   
+        

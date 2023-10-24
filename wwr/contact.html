@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact for Sequence Splash Rafting</title>
+        <meta name="description" content="Discover how to reach out to us and explore our unique pakages.">
+        <meta name="author" content="Richard Sam">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <style>
+
+            /* Add your CSS styles here */
+            .employee-profile {
+              display: flex;
+              align-items: center;
+              margin-bottom: 20px;
+            }
+        
+            .employee-profile img {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              margin-right: 20px;
+            }
+        
+            .employee-profile .caption {
+              font-weight: bold;
+            }
+        
+            .form-container {
+              width: 50%;
+              margin: 0;
+            }
+        
+            .form-container form {
+              background-color: #f0f0f0;
+              padding: 20px;
+              border-radius: 10px;
+            }
+        
+            .form-container label {
+              display: block;
+              margin-top: 10px;
+              font-weight: bold;
+            }
+        
+            .form-container input[type="text"],
+            .form-container input[type="email"],
+            .form-container textarea {
+              width: 100%;
+              padding: 10px;
+              margin-top: 5px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+            }
+        
+            .form-container input[type="radio"] {
+              margin-right: 5px;
+            }
+        
+            .form-container button {
+              background-color: #4CAF50;
+              color: white;
+              padding: 10px 30px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+              
+        </style>
+
+    </head>
+    <body>
+      <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <h1>SQUENCE SPLASH®</h1>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+        <main>
+            <h1>Contact Us</h1>
+            <h2>Send Us a Message</h2>
+            <p>Sequence Splash Rafting</p>
+            <p>Phone: +2348064010818</p>
+            <p>Email: <a href="mailto:">u920097742@byui.edu</a></p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1671.6303709406134!2d7.041527407002076!3d4.799314235165854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1697151689445!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            </div>
+            
+            <h1>Contact Us</h1>
+                      
+            <div class="form-container">
+                <div class="employee-profile">
+                  <img class="employee-image" src="images/employee1.jpeg" alt="Employee 1">
+                  <p class="caption">Happy Employee: John Joe</p>
+                </div>
+                <div class="employee-profile">
+                  <img class="employee-image" src="images/employee2.jpeg" alt="Employee 2">
+                  <p class="caption">Happy Employee: Mary Jane </p>
+                </div>
+                <div class="employee-profile">
+                  <img src="images/employee3.jpeg" alt="Employee 3">
+                  <p class="caption">Happy Employee: Jayden & Leanne</p>
+                </div>
+            
+                <form action="submit_form.php" method="post">
+                  <label for="name">Your Name:</label>
+                  <input type="text" id="name" name="name" required><br><br>
+            
+                  <label for="email">Your Email Address:</label>
+                  <input type="email" id="email" name="email" required><br><br>
+            
+                  <label>Message Purpose:</label>
+
+                  <label><br>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry">
+                    General Inquiry
+                  </label>
+
+                  <label><br>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    Reservation Question
+                  </label>
+
+                  <label><br>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    Website Suggestion
+                  </label><br>
+                    
+                  <label for="message">Your Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+
+                  <label for="newsletterCheckbox">
+                    <input type="checkbox" id="newsletterCheckbox" name="newsletterCheckbox">
+                    Please subscribe me to the monthly newsletter
+                  </label><br>
+                  
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+        </main>         
+        
+        <footer>
+            <p>©2024 ⚓ Sequence Splash Rafting ⚓ Richard Sam</p>
+            <div class="footer">
+                <nav class="sociallinks">
+                    <a href="https://www.facebook.com">
+                        <img src="images/facebook-logo.webp" alt="Facebook">
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <img src="images/twitter-logo.webp" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="images/instagram-logo.png" alt="Instagram">
+                    </a>                
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
